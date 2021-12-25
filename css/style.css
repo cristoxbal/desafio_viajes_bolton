@@ -1,0 +1,48 @@
+/* CSS */
+*{
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+}
+
+html{
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+h2{margin: 30px auto;}
+
+/* NavBar */
+.navbar {height: 80px;}
+.bg-corporate {background-color:#222;}
+.navbar-brand {font-family: 'Lobster', cursive; font-size: 2em;}
+#logo{height: 40px;}
+
+/* CARRUSEL */
+#carousel-viajes{margin-top:120px;z-index: 1;}
+#carousel-viajes img{height: 450px; object-fit: cover; border-radius: 2em;}
+
+/* BUSCADOR - IDEA POR DEFINIR */
+.buscador{background-color:#FFF; height: 100px;margin-top: -50px;z-index: 2;width: 80%;border-radius: 1em; box-shadow: 0px 10px 20px -4px rgba(0,0,0,0.15); box-shadow: 0px 10px 20px -4px rgba(0,0,0,0.1);}
+
+/* CARD SECTION - FEATURED TRAVELS */
+/* .featured-cards{margin-top: -50px;z-index: 3;width: 90%;border-radius: 1em;} SUPERPONE SOBRE EL CARRUSEL*/
+
+.card {
+  border-radius: 1.5em !important;
+  border:1px solid #ebebeb;
+  padding:10px;
+}
+
+.card img {
+  border-radius: 1.5em !important;
+  object-fit: cover;
+  height: 300px;
+}
+
+.card-title {
+  margin: 20px 0 10px 0;
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+.precio {font-size: 0.8em; color:slategrey}
