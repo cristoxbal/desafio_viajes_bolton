@@ -24,6 +24,7 @@ h2{margin: 30px auto;}
 /* BUSCADOR - IDEA POR DEFINIR */
 .buscador{background-color:#FFF; height: 100px;margin-top: -50px;z-index: 2;width: 80%;border-radius: 1em; box-shadow: 0px 10px 20px -4px rgba(0,0,0,0.15); box-shadow: 0px 10px 20px -4px rgba(0,0,0,0.1);}
 
+
 /* CARD SECTION - FEATURED TRAVELS */
 /* .featured-cards{margin-top: -50px;z-index: 3;width: 90%;border-radius: 1em;} SUPERPONE SOBRE EL CARRUSEL*/
 
@@ -39,10 +40,13 @@ h2{margin: 30px auto;}
   height: 300px;
 }
 
-.card-title {
-  margin: 20px 0 10px 0;
-  font-size: 1.8em;
-  font-weight: 600;
-}
-
+.card-title {margin: 10px 0 10px 0;}
 .precio {font-size: 0.8em; color:slategrey}
+.moneda{font-size:0.7em;}
+.checked {color: orange;}
+
+
+/* FOOTER */
+.footer{
+  background-color: #2273FF;
+}
