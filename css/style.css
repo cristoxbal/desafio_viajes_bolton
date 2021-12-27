@@ -9,7 +9,75 @@ html{
   scroll-behavior: smooth;
 }
 
+:root{
+  --primary-color:#2273FF;
+}
+
+a:link {text-decoration: none;}
 h2{margin: 30px auto;}
+
+/* Botones */
+.btn-primary {
+  color: #fff;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-outline-primary {
+  color: var(--primary-color);
+  background-color: #FFF;
+  border-color: var(--primary-color);
+}
+
+.bg-primary{background-color: var(--primary-color);}
+
+.btn:hover {background-color: var(--primary-color)}
+
+/* Scroll-top */
+#goTop{
+  position: fixed;
+  z-index: 1000;
+  right: 25px;
+  bottom: 25px;
+  background-color: #FFF;
+  border:1px solid var(--primary-color);
+  padding: 0 10px;
+  color:#FFF;
+  text-align: center;
+  border-radius: 50%;
+  transition: all .2s;
+}
+
+#goTop:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  color: #FFF;
+}
+
+/* ProgressBar */
+.indicator-container{
+  width: 100%;
+  position: fixed;
+  top:0;
+  height: 7px;
+  z-index: 1001;
+}
+
+.indicator-scroll{
+  height: 100%;
+  width: 0;
+  background-color: var(--primary-color);
+}
+
+.ocultar{
+  opacity: 0;
+  visibility: hidden;
+}
+
+.mostrar{
+  opacity: 1;
+  visibility: visible;
+}
 
 /* NavBar */
 .navbar {height: 80px;}
@@ -45,14 +113,41 @@ h2{margin: 30px auto;}
 .moneda{font-size:0.7em;}
 .checked {color: orange;}
 
+/* Sección Why Us */
+.why-us{
+  color: #222;
+  padding:60px 20px;
+}
+
+.why-icon{
+  color:var(--primary-color)
+}
 
 /* FOOTER */
 .footer{
-  background-color: #2273FF;
+  background-color: var(--primary-color);
 }
 
 #logo-footer{
   height: 20px;
 }
 
-
+/* MEDIA QUERIES */
+/* MOBILE S */
+@media screen and (min-width:319px) and (max-width:374px) {
+}
+/*Mobile M*/
+@media screen and (min-width:375px) and (max-width:424px) {
+}
+/*Mobile L*/
+@media screen and (min-width:425px) and (max-width:767.98px){
+}
+/*Tablet*/
+@media screen and (min-width:768px) and (max-width:1023.98px){
+}
+/*TABLET GRANDE */ 
+@media screen and (min-width:1024px) and (max-width:1299.98px){
+}
+/* LAPTOP */
+@media screen and (min-width:1300px) and (max-width:1500px){
+}

@@ -26,6 +26,20 @@
 </head>
 
 <body>
+<!-- ProgressBar -->
+<div class="indicator-container">
+  <div class="indicator-scroll">
+
+  </div>
+</div>
+
+<!-- Botón go Top -->
+<div id="goTop" class="ocultar">
+  <a href="#"><i class="fas fa-angle-up fa-3x"></i></a>
+</div>
+
+
+
 <header>
 <!-- NavBar -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-corporate">
@@ -46,7 +60,7 @@
             <a class="nav-link" href="#"><i class="fas fa-hotel me-1"></i> Hoteles</a>
           </li>
           <li class="nav-item me-3">
-            <a class="nav-link" href="#"><i class="fas fa-map me-1"></i> Rutas Nacionales</a>
+            <a class="nav-link" href="#faq"><i class="fas fa-life-ring me-1"></i> Asistencia en viaje</a>
           </li>
         </ul>
         <div class="span ms-2">
@@ -119,7 +133,7 @@
           <div class="card rounded-3">
             <img class="card-img-top" src="img/card-orlando-disney.jpeg" alt="Orlando">
             <div class="card-body">
-              <h3 class="card-title">Orlando [Disney]</h3>
+              <h3 class="card-title">Orlando, parques Disney</h3>
               <p class="card-text"><i class="fas fa-plane-departure"></i> Vuelo + Hotel + Tickets</p></p>
               <p class="card-text">Mundialmente conocida por sus Parques de Atracciones Temáticos, Orlando, en el centro de la Florida, se ha convertido en uno de los destinos turísticos por excelencia.</p>
               <span class="precio" mb-1>Precio final desde</span><br>
@@ -145,7 +159,7 @@
 </div>
 
 <div class="container mt-5 featured-cards">
-  <h3 class="mb-3"><i class="fas fa-globe-americas"></i> Principales Destinos</h3>
+  <h4 class="mb-3">Principales Destinos</h4>
   <div class="row">
     <!-- Cancún -->
     <div class="col-sm-12 col-md-6 col-lg-3">
@@ -322,13 +336,43 @@
     </div>
   </div>
 </div>
+<br>
+
+<!-- Why us? -->
+<div class="container mt-5 d-none d-md-block .d-lg-block">
+  <h3 class="mb-3">¿Por qué viajar con nosotros?</h3>
+  <div class="row bg-light rounded-3">
+    <div class="col-12 col-md-4">
+      <div class="why-us text-center">
+        <p><i class="fas fa-globe-americas fa-4x why-icon"></i></p>
+        <h5>Estamos en todo el mundo</h5>
+        <p>Nuestra agencia, con más de 15 años de experiencia, cuenta con oficinas distribuidas a lo largo y ancho de todo el mundo.</p>
+      </div>
+    </div>
+    <div class="col-12 col-md-4">
+      <div class="why-us text-center">
+        <p><i class="fas fa-archway fa-4x why-icon"></i></p>
+        <h5>Los mejores destinos</h5>
+        <p>Si quieres conocer los imperdibles, pero también visitar los lugares que están siendo tendencia, no lo dudes y viaja con nosotros.</p>
+      </div>
+    </div>
+    <div class="col-12 col-md-4">
+      <div class="why-us text-center">
+        <p><i class="fas fa-life-ring fa-4x why-icon"></i></p>
+        <h5>Te ayudamos a viajar mejor</h5>
+        <p>Sabemos lo importante que es sentirte seguro mientras viajas, con nuestro sistema de Asistencia al viajero te acompañaremos en todo momento.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 <div class="container my-5">
   <div class="article"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium molestias molestiae sapiente, autem, eveniet odio ipsam soluta temporibus vero consequuntur voluptatum, eos ab nemo maiores laudantium quam quibusdam ipsa repellat.</p></div>
 <div class="article"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae, accusamus alias iure illo expedita eum temporibus a adipisci exercitationem aliquid vero tenetur quibusdam dolorum! Quas voluptas sequi tenetur temporibus animi.</p></div>
-<div class="article"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro fugiat officia nam ipsam, eum aliquam reiciendis enim aspernatur, amet libero corrupti nobis doloremque possimus natus veniam dolore. Repellat, magni ipsam.</p></div>
+<div class="article"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro fugiat officia nam ipsam, eum aliquam reiciendis enim aspernatur, amet libero corrupti nobis doloremque possimus natus veniam dolore. Repellat, magni ipsam<span id="faq"></span>.</p></div>
 </div>
+<br>
 
 <!-- FAQ's -->
 <div class="container">
@@ -346,10 +390,10 @@
             <li>Chilenos y extranjeros residentes en Chile que cuenten con:
           i. Pase de Movilidad habilitado. Menores de 18 sin pase no pueden salir del país
           ii. Permiso excepcional para salida del país por alguno de los siguientes motivos:
-              <ol>– Carácter humanitario</ol>
-              <ol>– Gestiones esenciales para la salud del viajero</ol>
-              <ol>– Gestiones fundamentales para la adecuada marcha del país</ol>
-              <ol>– Residir en el exterior</ol>
+              <ol>Carácter humanitario</ol>
+              <ol>Gestiones esenciales para la salud del viajero</ol>
+              <ol>Gestiones fundamentales para la adecuada marcha del país</ol>
+              <ol>Residir en el exterior</ol>
               <ol>* Dichos documentos serán requeridos en el control de Policía Internacional</ol>
             </li>
             <li>
@@ -368,7 +412,7 @@
       <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
         <div class="accordion-body">
           <ol>
-            <li><strong>Declaración Jurada:</strong> El viajero debe completar el formulario <a href="#" data-bs-toggle="tooltip" title="" data-bs-original-title="Default tooltip">Declaración Jurada de Viajeros</a> de forma electrónica y hasta 48 horas antes del embarque. En este formulario entregará información de contacto, antecedentes de salud y de su viaje, y además acepta las condiciones de ingreso. Está disponible en www.c19.cl, y será requerido por la aerolínea al embarcar, y por la autoridad sanitaria al ingresar al país.
+            <li><strong>Declaración Jurada:</strong> El viajero debe completar el formulario <a href="https://chile.gob.cl/chile/ingreso-a-chile-desde-el-exterior" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Ingreso a Chile desde el exterior">Declaración Jurada de Viajeros</a> de forma electrónica y hasta 48 horas antes del embarque. En este formulario entregará información de contacto, antecedentes de salud y de su viaje, y además acepta las condiciones de ingreso. Está disponible en www.c19.cl, y será requerido por la aerolínea al embarcar, y por la autoridad sanitaria al ingresar al país.
             </li>
             <li>
             <strong>Test PCR:</strong> El viajero debe adjuntar a la Declaración Jurada de Viajeros un resultado negativo de un test PCR para SARS-CoV-2. Este resultado negativo del test no podrá tener una antigüedad mayor a 72 horas desde la toma de muestra hasta la hora de salidgita del último vuelo con destino final Chile en caso de entrar vía aérea. En caso de ingresar vía terrestre, no podrá tener una antigüedad mayor a 72 horas desde la toma de muestra hasta la entrada a Chile. Será requerido por la aerolínea al embarcar, y por la autoridad sanitaria al ingresar al país. Los menores de dos años quedan exceptuados de este requisito.  
@@ -398,6 +442,12 @@
       </div>
     </div>
   </div>
+</div>
+<br>
+
+<!-- Contact Form -->
+<div class="container text-center mt-5 mb-5" id="contact-form">
+  <button data-tf-popup="FluucMR1" data-tf-iframe-props="title=Contact Form" class="bg-primary" style="all:unset;font-family:Helvetica,Arial,sans-serif;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#FFFFFF;font-size:20px;border-radius:25px;padding:0 33px;font-weight:bold;height:50px;cursor:pointer;line-height:50px;text-align:center;margin:0;text-decoration:none;">Contacta con nosotros</button><script src="//embed.typeform.com/next/embed.js"></script>
 </div>
 
 <!-- FOOTER -->
@@ -437,7 +487,7 @@
         </ul>
       </div>
 
-      <div class="col-sm-12 col-md-4 mb-1 offset-1">
+      <div class="col-sm-12 col-md-4 mb-1">
         <form>
           <h5>Recibe nuestras mejores ofertas</h5>
           <p>Todas las semanas tenemos nuevos destinos al mejor precio.</p>
@@ -469,6 +519,8 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 <!-- Main JS    -->
 <script src="js/main.js"></script>
+
+<span class="ocultar"><a href="https://icons8.com/icon/svrekUaSZjH0/despegue">SVG icons by Icons8</a></span>
 
 </body>
 </html>
