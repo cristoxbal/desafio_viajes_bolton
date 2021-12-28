@@ -4,7 +4,10 @@ $(function() {
     console.log( "ready!" );
 });
 
-// Navbar-color
+// Navbar-scrolled
+window.addEventListener("scroll", function () {
+  document.querySelector("navbar-primary").classList.toggle("#navbarScroll", window.scrollY >= 20);
+})
 
 //PROGRESS-BAR
 addEventListener('DOMContentLoaded', () => {
