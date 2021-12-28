@@ -6,8 +6,13 @@ $(function() {
 
 // Navbar-scrolled
 window.addEventListener("scroll", function () {
-  document.querySelector("navbar-primary").classList.toggle("#navbarScroll", window.scrollY >= 20);
+  document.querySelector("#navbar-primary").classList.toggle("navbar-Scroll", window.scrollY >= 60); 
 })
+
+window.addEventListener("scroll", function cambiarLogo() {
+  $("#logo").attr("src","img/logo2.png", window.scrollY >= 60);
+})
+
 
 //PROGRESS-BAR
 addEventListener('DOMContentLoaded', () => {

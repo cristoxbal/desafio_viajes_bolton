@@ -42,23 +42,23 @@
 
 <header>
 <!-- NavBar -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" id="navbar-primary">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="navbar-primary">
     <div class="container">
       <a href="#" title=""><img src="img/logo1.png" alt="logo" id="logo"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse bg-dark" id="navbarScroll">
+      <div class="collapse navbar-collapse" id="navbarScroll">
         <ul class="navbar-nav ms-md-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
           <li class="nav-item me-3">
             <div class="row"><a class="nav-link" href="#ofertas"><i class="fas fa-tag me-1"></i> Ofertas</a></div>
           </li>
           <li class="nav-item me-3">
-            <a class="nav-link" href="#"><i class="fas fa-suitcase-rolling me-1"></i> Paquetes</a>
+            <a class="nav-link" href="#paquetes"><i class="fas fa-suitcase-rolling me-1"></i> Paquetes</a>
           </li>
-          <li class="nav-item me-3">
+          <!-- <li class="nav-item me-3">
             <a class="nav-link" href="#"><i class="fas fa-hotel me-1"></i> Hoteles</a>
-          </li>
+          </li> -->
           <li class="nav-item me-3">
             <a class="nav-link" href="#faq"><i class="fas fa-life-ring me-1"></i> Asistencia en viaje</a>
           </li>
@@ -101,20 +101,12 @@
   </button>
 </div>
 
-    <!-- <div class="buscador text-center mx-auto">
-      <div class="row w-100">
-        <div class="col">
-          <p class="align-middle">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae facilis id perspiciatis nihil provident officia cum? Minus fugit ut iure.</p>
-        </div>
-      </div>
-    </div>
-  </div> -->
-
-
 <!-- CARD SECTION - FEATURED TRAVELS  -->
-
-<div class="container-fluid mt-5 featured-cards" id="ofertas">
-  <h2><i class="fas fa-tag"></i> Mejores ofertas</h2>
+<div class="container-fluid mt-4">
+  <h1><i class="fas fa-globe-americas"></i> Agencia de Viajes Bolton<span id="ofertas"></span></h1>
+</div>
+<div class="container-fluid mt-1 featured-cards">
+  <h2>Mejores ofertas</h2>
   <div class="row">
         <div class="col-sm-12 col-md-6 col-lg-4">
           <div class="card rounded-3">
@@ -151,7 +143,7 @@
               <p class="card-text">Disfruta de los majestuosos paisajes verdes de Irlanda, visitando la preciosa Abadía de Kylemore, los impresionantes Acantilados de Moher y la famosa fortaleza de la Roca de Cashel.</p>
               <span class="precio" mb-1>Precio final desde</span><br>
               <a href="#" class="btn btn-outline-primary"><span class="moneda">CLP</span>  $949.990</a>
-              <a href="#" class="btn btn-primary"><i class="far fa-clock"></i> Programa tu vuelo</a>
+              <a href="#" class="btn btn-primary"><i class="far fa-clock"></i> Programa tu vuelo</a><span id="paquetes"></span>
             </div>
           </div>
         </div>
@@ -330,7 +322,7 @@
             </span>
           <span class="precio" mb-1>Precio final por persona desde</span><br>
           <a href="#" class="btn btn-outline-primary"><span class="moneda">CLP</span>  $1.870.990</a>
-          <a href="#" class="btn btn-primary"><i class="far fa-calendar-alt"></i> Reservar</a>
+          <a href="#" class="btn btn-primary"><i class="far fa-calendar-alt"></i> Reservar</a><span id="faq"></span>
         </div>
       </div>
     </div>
@@ -365,17 +357,10 @@
     </div>
   </div>
 </div>
-
-
-<div class="container my-5">
-  <div class="article"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium molestias molestiae sapiente, autem, eveniet odio ipsam soluta temporibus vero consequuntur voluptatum, eos ab nemo maiores laudantium quam quibusdam ipsa repellat.</p></div>
-<div class="article"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae, accusamus alias iure illo expedita eum temporibus a adipisci exercitationem aliquid vero tenetur quibusdam dolorum! Quas voluptas sequi tenetur temporibus animi.</p></div>
-<div class="article"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro fugiat officia nam ipsam, eum aliquam reiciendis enim aspernatur, amet libero corrupti nobis doloremque possimus natus veniam dolore. Repellat, magni ipsam<span id="faq"></span>.</p></div>
-</div>
 <br>
 
 <!-- FAQ's -->
-<div class="container">
+<div class="container mt-5">
   <h3 class="mb-3"><i class="fas fa-life-ring"></i> Resuelve tus dudas</h3>
   <div class="accordion accordion-flush" id="accordionFlushExample">
     <div class="accordion-item">
@@ -447,7 +432,7 @@
 
 <!-- Contact Form -->
 <div class="container text-center mt-5 mb-5" id="contact-form">
-  <button data-tf-popup="FluucMR1" data-tf-iframe-props="title=Contact Form" class="bg-primary" style="all:unset;font-family:Helvetica,Arial,sans-serif;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#FFFFFF;font-size:20px;border-radius:25px;padding:0 33px;font-weight:bold;height:50px;cursor:pointer;line-height:50px;text-align:center;margin:0;text-decoration:none;">Contacta con nosotros</button><script src="//embed.typeform.com/next/embed.js"></script>
+  <div data-tf-widget="nbnvoLhU" data-tf-iframe-props="title=Contacto Bolton viajes" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
 </div>
 
 <!-- FOOTER -->
@@ -501,7 +486,7 @@
     </div>
 
     <div class="d-flex justify-content-between py-4 my-4 border-top">
-      <p><img src="img/logo-footer.png" alt="logo" id="logo-footer"> | © 2021 Viajes Bolton. Todos los derechos reservados.</p>
+      <p><img src="img/logo1.png" alt="logo" id="logo-footer"> | © 2021 Viajes Bolton. Todos los derechos reservados.</p>
       <ul class="list-unstyled d-flex">
         <a class="link-dark footer-social me-3 fs-4" href="#"><i class="fab fa-whatsapp"></i></a>
         <a class="link-dark footer-social me-3 fs-4" href="#"><i class="fab fa-facebook-messenger"></i></a>

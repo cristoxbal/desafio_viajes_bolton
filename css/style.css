@@ -78,20 +78,22 @@ h2{margin: 30px auto;}
 }
 
 /* NavBar */
-.navbar {height: 80px;}
+.navbar {height: 80px; background-color: transparent; color:#222;}
 #logo {height: 30px;}
+.navbar a:hover{color: var(--primary-color) !important;}
+.nav-link {color:#222 !important;}
+
+.navbar-Scroll {
+ background-color:#222 !important; color:#FFF !important;}
+
+ .navbar-Scroll .nav-link {color:#FFF !important;}
 
 
 /* CARRUSEL */
 #carousel-viajes{margin-top:120px;z-index: 1;}
 #carousel-viajes img{height: 450px; object-fit: cover; border-radius: 2em;}
 
-/* BUSCADOR - IDEA POR DEFINIR */
-.buscador{background-color:#FFF; height: 100px;margin-top: -50px;z-index: 2;width: 80%;border-radius: 1em; box-shadow: 0px 10px 20px -4px rgba(0,0,0,0.15); box-shadow: 0px 10px 20px -4px rgba(0,0,0,0.1);}
-
-
 /* CARD SECTION - FEATURED TRAVELS */
-/* .featured-cards{margin-top: -50px;z-index: 3;width: 90%;border-radius: 1em;} SUPERPONE SOBRE EL CARRUSEL*/
 
 .card {
   border-radius: 1.5em !important;
