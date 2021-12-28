@@ -10,7 +10,8 @@ html{
 }
 
 :root{
-  --primary-color:#2273FF;
+  --primary-color:#2273FF ; /* Opción 1*/
+/* --primary-color:#00F0AC;  Opción 2*/
 }
 
 a:link {text-decoration: none;}
