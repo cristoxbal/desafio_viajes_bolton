@@ -53,15 +53,6 @@ h2{margin: 30px auto;}
   color: #FFF;
 }
 
-/* ProgressBar */
-.indicator-container{
-  width: 100%;
-  position: fixed;
-  top:0;
-  height: 7px;
-  z-index: 1001;
-}
-
 .indicator-scroll{
   height: 100%;
   width: 0;
