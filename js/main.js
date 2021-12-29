@@ -28,6 +28,15 @@ addEventListener('DOMContentLoaded', () => {
   window.addEventListener('scroll', indicarScroll)
 })
 
+// Navbar-scrolled
+window.addEventListener("scroll", function () {
+  document.querySelector("#navbar-primary").classList.toggle("navbar-Scroll", window.scrollY >= 60);
+  if (window.scrollY >= 60) {
+    $("#logo").attr("src", "img/logo2.png");
+  } else {
+    $("#logo").attr("src", "img/logo1.png");
+  }
+})
 
 // TOOLTIPS
 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
